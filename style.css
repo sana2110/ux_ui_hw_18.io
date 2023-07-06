@@ -1,0 +1,107 @@
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .logo {
+    width: 23%;
+    padding: 1%;
+  }
+  
+  nav {
+    width: 73%;
+    padding: 1%;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: row; 
+  }
+  ul {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+    body {
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      width: 50%;
+      margin-left: auto;
+    }
+    
+    .logo {
+      text-align: center;
+    }
+    ul {
+      width: 50%;
+      margin-left: auto;
+    }
+    
+    .logo {
+      text-align: center;
+    }
+    footer {
+      background-color:white;
+      padding: 25px;
+    }
+    
+    ul {
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    li {
+      padding: 0 10px;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+        .flexContainer {
+          flex-direction: column;
+        }
+        .flexContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          
+          .flexChild {
+            width: 33.33%;
+          }
+
+
+        .flexChild {
+          width: 100%;
+        }
+      
+        .workGrid {
+          grid-template-areas: ". . .";
+          grid-template-rows: 1fr 1fr;
+          grid-template-columns: 1fr;
+        }
+      }
